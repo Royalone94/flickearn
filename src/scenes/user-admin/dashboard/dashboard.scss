@@ -1,0 +1,20 @@
+.user-admin-dashboard {
+	h2 {
+		text-align: left;
+	}
+	.datepicker {
+		margin: 0 1rem;
+	}
+
+	@media (max-width: 575px) {
+		.datepicker {
+			margin-bottom: 1rem;
+		}
+	}
+	p {
+		text-align: left;
+		font-size:20px;
+		font-weight:bold;
+		color:#000;
+	}
+}

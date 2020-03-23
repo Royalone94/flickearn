@@ -1,0 +1,10 @@
+.user-admin-my-referrals {
+	.datepicker {
+		margin: 0 1rem;
+	}
+	@media (max-width: 575px) {
+		.datepicker {
+			margin-bottom: 1rem;
+		}
+	}
+}

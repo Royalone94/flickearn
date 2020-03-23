@@ -1,0 +1,9 @@
+$break-small: 768px;
+
+.layout-sider {
+    .ant-layout-sider-trigger {
+        @media screen and (max-width: $break-small) {
+	    	display: none;
+        }
+    }
+}
